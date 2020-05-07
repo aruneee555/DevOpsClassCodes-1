@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: addressbookapp
-        image: aruneee555/addressbook:$BUILD
+        image: aruneee555/addressbook:$build
         ports:
         - containerPort: 8080
 
